@@ -1,0 +1,81 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background:linear-gradient(to right top, #129, #2e2e2d)
+}
+
+form{
+    background: #fff;
+    width:350px;
+    height:580px;
+    padding: 75px 50px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    border:#c2c2ab solid 5px;
+    border-radius:5%/5%;
+    box-shadow: rgb(141, 139, 139) 0 0 20px 5px,
+                                    0 0 0 0,
+                                    0 0 0 0,
+                                    0 0 0 0;
+}
+
+h1{
+    text-align: center;
+    color:#129;
+    margin-bottom: 45px;
+    font-size: 40px;
+
+}
+
+.textboxdiv{
+    border-bottom: 2px solid black;
+    position:relative;
+    margin:35px 0;
+}
+
+.textboxdiv input{
+    background:none;
+    width:240px;
+    border:none;
+    outline: none;
+    color:#129;
+    height:35px;
+    font-size: 20px;
+}
+.loginBtn{
+    height:45px;
+    width:100%;
+    border:none;
+    outline:none;
+    background: linear-gradient(45deg,rgb(2, 2, 255),rgb(107, 119, 226), #129  );
+    color:#fff;
+    font-size: 16px;
+    font-weight: bolder;
+    transition:0.5s;
+    background-position: left;
+    background-size: 200%;
+}
+
+.loginBtn:hover{
+    background-position: right;
+}
+
+.signup{
+    color:black;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.signup a{
+    color:midnightblue;
+    font-weight: bolder;
+}
